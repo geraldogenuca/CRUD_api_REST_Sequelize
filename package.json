@@ -1,0 +1,42 @@
+{
+  "name": "crud_api_rest_sequelize",
+  "version": "1.0.0",
+  "description": "REST API in nodeJS, Sequelize OMR and mysql database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon --legacy-watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldogenuca/CRUD_api_REST_Sequelize.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "nodejs",
+    "sequelize",
+    "mysql",
+    "express"
+  ],
+  "author": "gegsdeveloper",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/geraldogenuca/CRUD_api_REST_Sequelize/issues"
+  },
+  "homepage": "https://github.com/geraldogenuca/CRUD_api_REST_Sequelize#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.5",
+    "sequelize": "^6.37.5"
+  }
+}
